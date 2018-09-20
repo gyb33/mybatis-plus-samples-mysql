@@ -93,8 +93,8 @@ public class MysqlGenerator extends GeneratorTest {
                 })
                 .setDriverName("com.mysql.jdbc.Driver")
                 .setUsername("root")
-                .setPassword("123456")
-                .setUrl("jdbc:mysql://127.0.0.1:3306/mybatis-plus?characterEncoding=utf8")
+                .setPassword("root")
+                .setUrl("jdbc:mysql://127.0.0.1:3306/mybatis_plus?characterEncoding=utf8")
         ).setStrategy(
             // 策略配置
             new StrategyConfig()
