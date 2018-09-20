@@ -44,7 +44,7 @@ import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
  * @author hubin
  * @since 2016-12-01
  */
-public class MysqlGenerator extends GeneratorTest {
+public class MysqlGenerator extends com.baomidou.mybatisplus.generator.GeneratorTest {
 
     /**
      * <p>
